@@ -1,0 +1,16 @@
+leaf,class,support,confidence,lift,n_conditions,rule
+4,Pneumonia,1,1.0,24.07017543859649,4,mfcc_std_6 ≤ 3.443 AND zcr_std ≤ 0.000523 AND spectral_bandwidth_mean ≤ 455.5 AND mfcc_mean_1 ≤ -441.4
+5,Pneumonia,4,1.0,24.07017543859649,4,mfcc_std_6 > 3.443 AND zcr_std ≤ 0.000523 AND spectral_bandwidth_mean ≤ 455.5 AND mfcc_mean_1 ≤ -441.4
+7,COPD,453,0.9955849889624724,1.1886030324195198,4,mfcc_mean_5 ≤ 40.52 AND zcr_std > 0.000523 AND spectral_bandwidth_mean ≤ 455.5 AND mfcc_mean_1 ≤ -441.4
+8,COPD,45,0.8222222222222222,0.9816297327609544,4,mfcc_mean_5 > 40.52 AND zcr_std > 0.000523 AND spectral_bandwidth_mean ≤ 455.5 AND mfcc_mean_1 ≤ -441.4
+11,COPD,295,0.4542372881355932,0.542302087819382,4,zcr_mean ≤ 0.002895 AND mfcc_std_8 ≤ 5.505 AND spectral_bandwidth_mean > 455.5 AND mfcc_mean_1 ≤ -441.4
+12,COPD,466,0.8497854077253219,1.0145367032710944,4,zcr_mean > 0.002895 AND mfcc_std_8 ≤ 5.505 AND spectral_bandwidth_mean > 455.5 AND mfcc_mean_1 ≤ -441.4
+14,COPD,196,0.5510204081632653,0.6578489383919247,4,mfcc_mean_20 ≤ 2.83 AND mfcc_std_8 > 5.505 AND spectral_bandwidth_mean > 455.5 AND mfcc_mean_1 ≤ -441.4
+15,Healthy,772,0.2849740932642487,6.071187204325299,4,mfcc_mean_20 > 2.83 AND mfcc_std_8 > 5.505 AND spectral_bandwidth_mean > 455.5 AND mfcc_mean_1 ≤ -441.4
+18,URTI,11,1.0,28.230452674897116,3,mfcc_mean_15 ≤ 6.598 AND mfcc_mean_4 ≤ -7.619 AND mfcc_mean_1 > -441.4
+20,Healthy,11,1.0,21.304347826086957,4,mfcc_mean_9 ≤ 8.905 AND mfcc_mean_15 > 6.598 AND mfcc_mean_4 ≤ -7.619 AND mfcc_mean_1 > -441.4
+21,COPD,10,1.0,1.1938739993038636,4,mfcc_mean_9 > 8.905 AND mfcc_mean_15 > 6.598 AND mfcc_mean_4 ≤ -7.619 AND mfcc_mean_1 > -441.4
+24,COPD,583,0.8987993138936535,1.0730531314497846,3,-441.4 < mfcc_mean_1 ≤ -410.5 AND mfcc_std_4 ≤ 25.78 AND mfcc_mean_4 > -7.619
+25,COPD,3994,0.9964947421131698,1.1896891630519222,3,mfcc_mean_1 > -410.5 AND mfcc_std_4 ≤ 25.78 AND mfcc_mean_4 > -7.619
+27,Healthy,10,0.8,17.043478260869566,4,rms_std ≤ 0.07768 AND mfcc_std_4 > 25.78 AND mfcc_mean_4 > -7.619 AND mfcc_mean_1 > -441.4
+28,COPD,9,1.0,1.1938739993038636,4,rms_std > 0.07768 AND mfcc_std_4 > 25.78 AND mfcc_mean_4 > -7.619 AND mfcc_mean_1 > -441.4

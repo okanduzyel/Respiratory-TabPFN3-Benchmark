@@ -1,0 +1,59 @@
+[21:17:28 +   0.0 min] Data: 6860 cycles, 123 patients, 52 features, backend=local
+[21:17:28 +   0.0 min] === Part 1: patient-level Stratified Group 5-fold (seed 42) ===
+[00:25:06 +   0.0 min] Data: 6860 cycles, 123 patients, 52 features, backend=local
+[00:25:06 +   0.0 min] === Part 1: patient-level Stratified Group 5-fold (seed 42) ===
+[02:24:22 +   0.0 min] Data: 6860 cycles, 123 patients, 52 features, backend=cloud
+[02:24:22 +   0.0 min] === Part 1: patient-level Stratified Group 5-fold (seed 42) ===
+[02:24:24 +   0.0 min]   ! error: RuntimeError('Fail to call prepare_train_set_upload with error: 401, Invalid token'); retry in 15s
+[02:24:40 +   0.3 min]   ! error: RuntimeError('Fail to call prepare_train_set_upload with error: 401, Invalid token'); retry in 30s
+[02:25:15 +   0.0 min] Data: 6860 cycles, 123 patients, 52 features, backend=cloud
+[02:25:15 +   0.0 min] === Part 1: patient-level Stratified Group 5-fold (seed 42) ===
+[02:25:26 +   0.2 min]   sgkf5 f1: TabPFN done (11s)
+[02:28:02 +   2.8 min]   sgkf5 f1: SHAP done (156s)
+[02:28:23 +   3.1 min]   sgkf5 f1: saved (MCC TabPFN=0.6218)
+[02:28:35 +   3.3 min]   sgkf5 f2: TabPFN done (12s)
+[02:33:51 +   8.6 min]   sgkf5 f2: SHAP done (315s)
+[02:34:09 +   8.9 min]   sgkf5 f2: saved (MCC TabPFN=0.5817)
+[02:34:23 +   9.1 min]   sgkf5 f3: TabPFN done (13s)
+[02:36:56 +  11.7 min]   sgkf5 f3: SHAP done (154s)
+[02:37:16 +  12.0 min]   sgkf5 f3: saved (MCC TabPFN=0.5361)
+[02:37:29 +  12.2 min]   sgkf5 f4: TabPFN done (13s)
+[02:40:02 +  14.8 min]   sgkf5 f4: SHAP done (154s)
+[02:40:21 +  15.1 min]   sgkf5 f4: saved (MCC TabPFN=0.4941)
+[02:40:32 +  15.3 min]   sgkf5 f5: TabPFN done (11s)
+[02:43:02 +  17.8 min]   sgkf5 f5: SHAP done (149s)
+[02:43:22 +  18.1 min]   sgkf5 f5: saved (MCC TabPFN=0.5987)
+[02:43:22 +  18.1 min] === Part 2: repeated 3x5 patient-level CV ===
+[02:43:36 +  18.3 min]   rep3x5 r1f1: TabPFN done (13s)
+[02:46:22 +  21.1 min]   rep3x5 r1f1: saved (MCC TabPFN=0.7125)
+[02:46:33 +  21.3 min]   rep3x5 r1f2: TabPFN done (11s)
+[02:48:56 +  23.7 min]   rep3x5 r1f2: saved (MCC TabPFN=0.6472)
+[02:49:07 +  23.9 min]   rep3x5 r1f3: TabPFN done (11s)
+[02:50:15 +  25.0 min]   rep3x5 r1f3: saved (MCC TabPFN=0.5623)
+[02:50:28 +  25.2 min]   rep3x5 r1f4: TabPFN done (13s)
+[02:51:37 +  26.4 min]   rep3x5 r1f4: saved (MCC TabPFN=0.4872)
+[02:51:50 +  26.6 min]   rep3x5 r1f5: TabPFN done (13s)
+[02:53:24 +  28.2 min]   rep3x5 r1f5: saved (MCC TabPFN=0.5694)
+[02:53:36 +  28.3 min]   rep3x5 r2f1: TabPFN done (11s)
+[02:54:49 +  29.6 min]   rep3x5 r2f1: saved (MCC TabPFN=0.5029)
+[02:55:00 +  29.7 min]   rep3x5 r2f2: TabPFN done (11s)
+[02:56:11 +  30.9 min]   rep3x5 r2f2: saved (MCC TabPFN=0.5161)
+[02:56:22 +  31.1 min]   rep3x5 r2f3: TabPFN done (11s)
+[02:57:32 +  32.3 min]   rep3x5 r2f3: saved (MCC TabPFN=0.5387)
+[02:57:45 +  32.5 min]   rep3x5 r2f4: TabPFN done (13s)
+[02:59:15 +  34.0 min]   rep3x5 r2f4: saved (MCC TabPFN=0.6912)
+[02:59:26 +  34.2 min]   rep3x5 r2f5: TabPFN done (11s)
+[03:00:35 +  35.3 min]   rep3x5 r2f5: saved (MCC TabPFN=0.5118)
+[03:00:48 +  35.5 min]   rep3x5 r3f1: TabPFN done (13s)
+[03:01:58 +  36.7 min]   rep3x5 r3f1: saved (MCC TabPFN=0.6234)
+[03:02:11 +  36.9 min]   rep3x5 r3f2: TabPFN done (13s)
+[03:03:22 +  38.1 min]   rep3x5 r3f2: saved (MCC TabPFN=0.5132)
+[03:03:34 +  38.3 min]   rep3x5 r3f3: TabPFN done (13s)
+[03:04:43 +  39.5 min]   rep3x5 r3f3: saved (MCC TabPFN=0.5000)
+[03:04:55 +  39.7 min]   rep3x5 r3f4: TabPFN done (12s)
+[03:06:07 +  40.9 min]   rep3x5 r3f4: saved (MCC TabPFN=0.6207)
+[03:06:17 +  41.0 min]   rep3x5 r3f5: TabPFN done (11s)
+[03:07:26 +  42.2 min]   rep3x5 r3f5: saved (MCC TabPFN=0.6859)
+[03:07:26 +  42.2 min] === Part 3: decision rules from the distilled tree (pooled data) ===
+[03:07:38 +  42.4 min] === Part 4: summaries ===
+[03:08:22 +  43.1 min] DONE. Results in revision_outputs/summary.md and revision_outputs/results.json

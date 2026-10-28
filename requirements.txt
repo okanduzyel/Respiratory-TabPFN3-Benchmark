@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+torch
+shap
+matplotlib
+librosa==0.10.1
+tabpfn
+tabpfn-client
